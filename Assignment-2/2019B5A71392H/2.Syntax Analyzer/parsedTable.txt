@@ -1,0 +1,39 @@
+
+				Parsed	Table
+
+		Token			Type							LineNumber
+
+                 int                       Keyword                                                    2 7 8 10
+                main                    Identifier                                                           2
+                   (                    Punctuator                                                  2 12 16 18
+                   )                    Punctuator                                                  2 12 16 18
+               float                       Keyword                                                           5
+                  fl                    Identifier                                                           5
+                5.01                      Constant                                                           5
+                   =                      Operator                                           5 6 6 7 7 7 10 11
+                   ;                    Punctuator                                    5 6 7 8 9 10 11 12 14 18
+                char                       Keyword                                                         6 9
+                  l1                    Identifier                                                           6
+                 'a'                      Constant                                                           6
+                  l2                    Identifier                                                           6
+                 '1'                      Constant                                                           6
+                   ,                    Punctuator                                                    6 7 7 12
+                   a                    Identifier                                                        7 11
+                   0                      Constant                                                   7 7 10 14
+                   b                    Identifier                                                        7 11
+                   c                    Identifier                                                           7
+                   5                      Constant                                                           7
+                 arr                    Identifier                                                           8
+                  50                      Constant                                                           8
+                   [                    Punctuator                                                           8
+                   ]                    Punctuator                                                           8
+                   *                      Operator                                                           9
+                 ptr                    Identifier                                                           9
+                 sum                    Identifier                                                    10 11 12
+                   +                      Operator                                                          11
+              printf                    Identifier                                                       12 18
+    "\n Sum : %d \n"                String Literal                                                          12
+              return                       Keyword                                                          14
+                void                       Keyword                                                          16
+                 abc                    Identifier                                                          16
+  "\nTest function "                String Literal                                                          18

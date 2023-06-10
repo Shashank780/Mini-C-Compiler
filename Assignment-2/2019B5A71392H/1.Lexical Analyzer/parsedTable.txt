@@ -1,0 +1,60 @@
+
+ Table:
+ 		Lexeme			Token				Attribute Value			Line Number
+
+  #include <stdio.h>        Preprocessor Statement                             0                                  1
+                 int                       Keyword                             1                                  2
+                main                     Procedure                             2                                  2
+                   {                    Punctuator                             3                                  3
+               float                       Keyword                             4                                  5
+                  fl                    Identifier                             5                                  5
+                   =                 Assignment Op                             6                                  5
+                5.01                Float Constant                             7                                  5
+                   ;                    Punctuator                             8                                  5
+                char                       Keyword                             9                                  6
+                  l1                    Identifier                            10                                  6
+                   =                 Assignment Op                             6                                  6
+                   a            Character Constant                            11                                  6
+                   ,                    Punctuator                            12                                  6
+                  l2                    Identifier                            13                                  6
+                   =                 Assignment Op                             6                                  6
+                   1            Character Constant                            14                                  6
+                   ;                    Punctuator                             8                                  6
+                 int                       Keyword                             1                                  7
+                   a                    Identifier                            11                                  7
+                   =                 Assignment Op                             6                                  7
+                   0              Integer Constant                            15                                  7
+                   ,                    Punctuator                            12                                  7
+                   b                    Identifier                            16                                  7
+                   =                 Assignment Op                             6                                  7
+                   0              Integer Constant                            15                                  7
+                   ,                    Punctuator                            12                                  7
+                   c                    Identifier                            17                                  7
+                   =                 Assignment Op                             6                                  7
+                   5              Integer Constant                            18                                  7
+                   ;                    Punctuator                             8                                  7
+                 int                       Keyword                             1                                  8
+                 arr                         Array                            19                                  8
+                   ;                    Punctuator                             8                                  8
+                char                       Keyword                             9                                  9
+                 ptr                       Pointer                            20                                  9
+                   ;                    Punctuator                             8                                  9
+                 int                       Keyword                             1                                 10
+                 sum                    Identifier                            21                                 10
+                   =                 Assignment Op                             6                                 10
+                   0              Integer Constant                            15                                 10
+                   ;                    Punctuator                             8                                 10
+                 sum                    Identifier                            21                                 11
+                   =                 Assignment Op                             6                                 11
+                   a                    Identifier                            11                                 11
+                   +                 Arithmetic Op                            22                                 11
+                   b                    Identifier                            16                                 11
+                   ;                    Punctuator                             8                                 11
+              return                       Keyword                            23                                 14
+                   0              Integer Constant                            15                                 14
+                   ;                    Punctuator                             8                                 14
+                   }                    Punctuator                            24                                 15
+                void                       Keyword                            25                                 16
+                 abc                     Procedure                            26                                 16
+                   {                    Punctuator                             3                                 17
+                   }                    Punctuator                            24                                 19

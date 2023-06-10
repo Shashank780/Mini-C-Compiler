@@ -1,0 +1,47 @@
+
+				Parsed Table
+
+		Token						Type							Line Number
+
+                void                       Keyword                                                         2 5
+                   (                    Punctuator                                                   2 5 13 14
+                   )                    Punctuator                                                   2 5 13 14
+                   {                    Punctuator                                                      2 6 15
+                 int                       Keyword                                                3 8 10 16 17
+                   ;                    Punctuator                                  3 8 9 10 11 12 13 14 16 17
+                   }                    Punctuator                                                     4 18 21
+                   =                      Operator                                                     8 11 12
+                   ,                    Punctuator                                                           8
+                char                       Keyword                                                           9
+                   [                    Punctuator                                                       10 10
+                   ]                    Punctuator                                                       10 10
+                   +                      Operator                                                          12
+     "\nHello World"                String Literal                                                          13
+
+
+
+				SymbolTable
+
+		Token				Type		Line Number				Scope		Function Number
+
+                func                          VOID                             2                        GLOBAL	0	1
+                   a                           INT                             3                       NESTING	1	1
+                main                          VOID                             5                        GLOBAL	0	2
+                   a                           INT                       8 11 12                       NESTING	1	2
+                   b                           INT                       8 11 12                       NESTING	1	2
+                   c                          CHAR                             9                       NESTING	1	2
+                   f                           INT                            10                       NESTING	1	2
+              printf                                                          13                       NESTING	1	2
+               scanf                                                          14                       NESTING	1	2
+                   y                           INT                            16                       NESTING	2	2
+                   a                           INT                            17                       NESTING	2	2
+
+
+
+   								Constant Table 
+
+ 						Value							Line Number
+
+                                                10                                                        8 10
+                                               100                                                          10
+                                                12                                                          12
